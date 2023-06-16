@@ -14,7 +14,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 8vh;
-    background-color: #1f2761;
+    background-color: #090f3f;
 }
 nav ul{
     display: flex;
@@ -58,12 +58,29 @@ nav ul li a{
 
 main hr{
     border: 0;
-    background-color:rgb(196, 125, 196) ;
+    background-color:white;
     height: 0.3vh;
     margin:0 3vw ;
+    margin-bottom: 2vh;
+}
+.secondsec{
+    height: 20vh ;
+}
+.secondsec span{
+   margin-top: 2vh;
+   margin-left: 3vw; 
+   font-size: 2.5vh;
+
 }
 .secondsec h1{
-    margin-top: 2vh;
+    /* margin-top: 2vh; */
     margin-left: 3vw;
-
+}
+.secondsec .box{
+    margin-top: 5vh;
+    height: 0.3vh;
+    background-color: white;
+    width: 85vw;
+    /* margin: 0 3vw; */
+    margin-left: 7vw;
 }
