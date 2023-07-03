@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #050A30 ;
     color: white;
@@ -106,6 +109,7 @@ main hr{
     display: flex;
     margin: 0 3vw;
     text-align: left;
+    scroll-behavior: smooth;
 }
 .thirdsec .service1 h3{
     margin-top: 1.5vh;
