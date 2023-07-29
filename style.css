@@ -59,7 +59,7 @@ nav ul li a{
     height: 50vh;
 }
 
-main hr{
+main .horizontaline{
     border: 0;
     background-color:white;
     height: 0.3vh;
@@ -99,6 +99,7 @@ main hr{
 .thirdsec h1{
     margin-left: 3vw;
     margin-bottom: 2vh;
+    margin-top:2vh;
 }
 .thirdsec .head{
     display: flex;
@@ -117,4 +118,29 @@ main hr{
 .thirdsec .serviceend{
     text-align: center;
     margin-top: 3vh;
+}
+.fourthsec h1{
+    margin-left: 3vw;
+    margin-bottom: 2vh;
+    margin-top:2vh;
+}
+.fourth1sec .head{
+    display: flex;
+    margin: 0 3vw;
+    text-align: left;
+}
+.fourthsec .service1{
+    display: flex;
+    margin: 0 3vw;
+    text-align: left;
+    scroll-behavior: smooth;
+}
+.fourthsec .service2{
+    display: flex;
+    margin: 0 3vw 4vh;
+    text-align: left;
+    scroll-behavior: smooth;
+}
+.fourthsec .service1 h3{
+    margin-top: 1.5vh;
 }
